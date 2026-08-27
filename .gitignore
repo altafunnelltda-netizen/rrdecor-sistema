@@ -3,3 +3,4 @@ dados.json
 users.json
 *.log
 .env
+.session-secret
