@@ -4,3 +4,4 @@ users.json
 *.log
 .env
 .session-secret
+landing-page/assets/inbox/

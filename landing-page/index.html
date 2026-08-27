@@ -8,7 +8,7 @@
 <link rel="icon" type="image/png" href="assets/logo-rrdecor.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -53,7 +53,8 @@
 
   <!-- HERO -->
   <section class="hero">
-    <div class="hero-plank-pattern" aria-hidden="true"></div>
+    <img src="assets/hero-bg.jpg" alt="" aria-hidden="true" class="hero-photo">
+    <div class="hero-overlay" aria-hidden="true"></div>
     <img src="assets/logo-rrdecor.png" alt="" aria-hidden="true" class="hero-watermark">
 
     <div class="hero-inner">
@@ -86,16 +87,6 @@
     </a>
   </section>
 
-  <!-- MARQUEE -->
-  <div class="marquee">
-    <div class="marquee-track">
-      <span>Vinílico</span><i>•</i><span>Laminado</span><i>•</i><span>SPC</span><i>•</i>
-      <span>Wood&nbsp;Look</span><i>•</i><span>Herringbone</span><i>•</i><span>Concreto</span><i>•</i>
-      <span>Vinílico</span><i>•</i><span>Laminado</span><i>•</i><span>SPC</span><i>•</i>
-      <span>Wood&nbsp;Look</span><i>•</i><span>Herringbone</span><i>•</i><span>Concreto</span><i>•</i>
-    </div>
-  </div>
-
   <!-- SOBRE -->
   <section class="sobre" id="sobre">
     <div class="sobre-inner">
@@ -113,18 +104,26 @@
           conduzida com o rigor que espaços de alto padrão exigem —
           discrição na execução, presença no resultado.
         </p>
+
+        <div class="clientes-mini">
+          <span class="clientes-label">Já instalamos para</span>
+          <div class="clientes-avatars">
+            <div class="cliente">
+              <img src="assets/clientes/mc-pp-da-vs.jpg" alt="MC PP da VS">
+              <span>MC PP da VS</span>
+            </div>
+            <div class="cliente">
+              <img src="assets/clientes/mc-binladen.jpg" alt="MC Bin Laden">
+              <span>MC Bin Laden</span>
+            </div>
+          </div>
+        </div>
+
         <a href="#contato" class="link-arrow">Converse com a nossa equipe →</a>
       </div>
 
-      <div class="sobre-graphic reveal-up" data-d="1" aria-hidden="true">
-        <div class="fan">
-          <div class="fan-plank"></div>
-          <div class="fan-plank"></div>
-          <div class="fan-plank"></div>
-          <div class="fan-plank"></div>
-          <div class="fan-plank"></div>
-          <div class="fan-plank"></div>
-        </div>
+      <div class="sobre-graphic reveal-up" data-d="1">
+        <img src="assets/sobre-foto.jpg" alt="Instalação de piso laminado pela equipe RR Decor" class="sobre-photo">
         <div class="fan-badge">
           <img src="assets/logo-rrdecor.png" alt="RR Decor">
         </div>
@@ -178,29 +177,29 @@
     </div>
 
     <div class="swatches">
-      <div class="swatch reveal-up" data-d="0" style="--sw:#b8863f;--sw2:#8f6329;">
-        <span class="swatch-name">Carvalho Dourado</span>
-        <span class="swatch-desc">Quente, natural, atemporal</span>
+      <div class="swatch reveal-up" data-d="0" style="background-image:url('assets/materiais/carvalho-natural.jpg');">
+        <span class="swatch-name">Carvalho Natural Envernizado</span>
+        <span class="swatch-desc">Pisos laminados · Smart</span>
       </div>
-      <div class="swatch reveal-up" data-d="1" style="--sw:#5a3d28;--sw2:#3a2717;">
-        <span class="swatch-name">Nogueira Profundo</span>
-        <span class="swatch-desc">Presença e sofisticação</span>
+      <div class="swatch reveal-up" data-d="1" style="background-image:url('assets/materiais/carvalho-bege.jpg');">
+        <span class="swatch-name">Carvalho Bege Escovado</span>
+        <span class="swatch-desc">Pisos laminados · Capture</span>
       </div>
-      <div class="swatch reveal-up" data-d="2" style="--sw:#6b6b68;--sw2:#4a4a48;">
-        <span class="swatch-name">Cinza Urbano</span>
-        <span class="swatch-desc">Contemporâneo, versátil</span>
+      <div class="swatch reveal-up" data-d="2" style="background-image:url('assets/materiais/nevoa-amanhecer.jpg');">
+        <span class="swatch-name">Névoa do Amanhecer</span>
+        <span class="swatch-desc">Pisos laminados · Nesto</span>
       </div>
-      <div class="swatch reveal-up" data-d="3" style="--sw:#b9b6ab;--sw2:#8f8c80;">
-        <span class="swatch-name">Concreto Polido</span>
-        <span class="swatch-desc">Industrial refinado</span>
+      <div class="swatch reveal-up" data-d="3" style="background-image:url('assets/materiais/se.jpg');">
+        <span class="swatch-name">Sé</span>
+        <span class="swatch-desc">Pisos laminados · Catedral</span>
       </div>
-      <div class="swatch reveal-up" data-d="4" style="--sw:#e6ddc8;--sw2:#c9bd9f;">
-        <span class="swatch-name">Marfim Clássico</span>
-        <span class="swatch-desc">Luminoso, elegante</span>
+      <div class="swatch reveal-up" data-d="4" style="background-image:url('assets/materiais/nascer-sol.jpg');">
+        <span class="swatch-name">Nascer do Sol</span>
+        <span class="swatch-desc">Pisos laminados · Nesto</span>
       </div>
-      <div class="swatch reveal-up" data-d="5" style="--sw:#232019;--sw2:#0e0c09;">
-        <span class="swatch-name">Ébano</span>
-        <span class="swatch-desc">Drama e contraste</span>
+      <div class="swatch reveal-up" data-d="5" style="background-image:url('assets/materiais/entardecer-outono.jpg');">
+        <span class="swatch-name">Entardecer de Outono</span>
+        <span class="swatch-desc">Pisos laminados · Nesto</span>
       </div>
     </div>
   </section>
